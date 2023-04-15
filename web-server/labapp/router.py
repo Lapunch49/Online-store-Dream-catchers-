@@ -12,7 +12,7 @@ import labapp.webservice as webservice   # подключаем модуль с 
 
 
 @app.route('/', methods=['GET'])
-@app.route('/index', methods=['GET'])
+@app.route('/shop-page', methods=['GET'])
 def index():
     """ Обработка запроса к индексной странице """
     # Пример вызова метода с выборкой данных из БД и вставка полученных данных в html-шаблон
@@ -32,6 +32,35 @@ def contact():
     return render_template('contact.html',
                            title='Контакты',
                            )
+
+@app.route('/product-details', methods=['GET'])
+def product_details():
+    """ Обработка запроса к странице contact.html """
+    return render_template('product-details.html',
+                           title='Информация о продукте',
+                           )
+
+@app.route('/cart', methods=['GET'])
+def cart():
+    """ Обработка запроса к странице contact.html """
+    return render_template('cart.html',
+                           title='Корзина',
+                           )
+
+@app.route('/login-register', methods=['GET'])
+def login_register():
+    """ Обработка запроса к странице contact.html """
+    return render_template('login-register.html',
+                           title='Вход/Регистрация',
+                           )
+
+@app.route('/checkout', methods=['GET'])
+def checkout():
+    """ Обработка запроса к странице contact.html """
+    return render_template('checkout.html',
+                           title='Доставка',
+                           )
+
 
 @app.route('/page_recipe/<id>', methods=['GET'])
 def page_recipe(id):
