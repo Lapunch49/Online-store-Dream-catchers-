@@ -641,6 +641,41 @@
     .shop-widget.mt-50 {
         margin-top: 30px;
     }
+    /* .widget.color .widget-desc ul {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+        .widget.color .widget-desc ul li {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+          width: 25%;
+          margin-bottom: 15px; }
+          .widget.color .widget-desc ul li a {
+            width: 30px;
+            height: 30px;
+            display: block;
+            border-radius: 50%;
+            background-color: #ffffff;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+            .widget.color .widget-desc ul li a.color1 {
+              background-color: #ffffff; }
+            .widget.color .widget-desc ul li a.color2 {
+              background-color: #969696; }
+            .widget.color .widget-desc ul li a.color3 {
+              background-color: #030303; }
+            .widget.color .widget-desc ul li a.color4 {
+              background-color: #0315ff; }
+            .widget.color .widget-desc ul li a.color5 {
+              background-color: #dc0647; }
+            .widget.color .widget-desc ul li a.color6 {
+              background-color: #fff56a; }
+            .widget.color .widget-desc ul li a.color7 {
+              background-color: #f26e51; }
+            .widget.color .widget-desc ul li a.color8 {
+              background-color: #9a8777; } */
+
     .shop-search.mb-50 {
         margin-bottom: 30px;
     }
